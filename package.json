@@ -1,0 +1,21 @@
+{
+  "name": "graphql-meeting",
+  "version": "1.0.0",
+  "description": "Sample project showing basic usage of GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Josef Zavisek <josef.zavisek@strv.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.4",
+    "graphql": "^0.7.2",
+    "lodash": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
